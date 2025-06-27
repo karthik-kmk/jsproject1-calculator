@@ -10,6 +10,7 @@ number.forEach(function (number) {
     string += number.innerHTML;
     console.log(number.innerHTML);
     div.innerHTML = number.innerHTML
+
     equals.addEventListener("click", function () {
       let result = eval(string);
       console.log(result);
@@ -22,3 +23,4 @@ clear.addEventListener("click", function () {
   div.innerHTML = "";
   string = "";
 });
+
